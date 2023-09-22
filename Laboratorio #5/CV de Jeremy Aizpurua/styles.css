@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+}
+section {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+fieldset {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+p {
+    color: #555;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1.5;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+aside {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    float: left;
+    width: 10%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+section {
+    float: right;
+    width: 70%;
+    font-size: 20px;
+}
