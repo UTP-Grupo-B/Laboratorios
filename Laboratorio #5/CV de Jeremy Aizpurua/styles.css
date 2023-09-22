@@ -20,6 +20,8 @@ fieldset {
     border: 2px solid #333;
     padding: 15px;
     margin-bottom: 20px;
+    border-radius: 5px; /* Añadido */
+    background-color: #f7f7f7; /* Añadido */
 }
 p {
     color: #555;
@@ -47,4 +49,94 @@ section {
     float: right;
     width: 70%;
     font-size: 20px;
+}
+center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ff0000;
+    font-family: 'Helvetica', sans-serif;
+}
+
+legend {
+    font-weight: bold;
+    color: #444;
+    font-family: 'Verdana', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    font-family: 'Georgia', serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+    margin-left: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.cono {
+    color: rgb(98, 8, 172);
+}
+
+.edu {
+    color: brown;
+    font-family: fantasy;
+}
+
+.refe {
+    color: rgb(219, 32, 219);
+}
+
+footer li {
+    color: rgb(0, 0, 0);
+}
+
+#general {
+    float: left;
+    font-size: 39px;
+}
+
+#espe {
+    float: center;
+    font-size: 23px;
+}
+
+#edu {
+    float: center;
+    font-size: 21px;
+}
+
+#cono {
+    float: center;
+    font-size: 21px;
+}
+
+#refe {
+    float: center;
+    font-size: 22px;
+}
+
+footer fieldset {
+    float: center;
+    font-size: 22px;
 }
