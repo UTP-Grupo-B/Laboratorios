@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.background {
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  height: 630px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  padding-left: 140px;
+  padding-right: 140px;
+  background-color: #4552da5d;
+  padding: 20px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 20px 40px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login {
+  padding: 10px 20px;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #36393f;
+}
+
+.header-title {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 140px;
+}
+
+.primary-title {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.primary-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.download-icon::before {
+  content: "\2193";
+  color: #36393f;
+}
+
+.btn-dark {
+  background-color: #36393f;
+  color: #ffffff;
+}
+
+.collaboration {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+
+.secondary-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.voice-channel {
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+
+.moderation-tools {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+
+.video-call {
+  background-color: #f9f9f9;
+  padding: 80px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-blurple {
+  margin-top: 40px;
+  background-color: #1528d8ab;
+  color: white;
+}
+
+.remove-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/*Todo hasta aqui esta revisado
+mas adelante es el footer por lo que no esta ordenado*/
+
+.main-footer {
+  background-color: #36393f;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  gap: 50px;
+  padding: 0 60px;
+  flex-direction: row;
+  align-items: center;
+  line-height: 1.5;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.info-box {
+  flex: 1; 
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.languages img {
+  max-width: 24px;
+}
+
+.social-media {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.sm-link {
+  margin-right: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sm-link:hover {
+  color: #7289da;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.footer-list li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
