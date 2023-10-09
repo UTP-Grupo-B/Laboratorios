@@ -1,0 +1,480 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 10%;
+    background-color: white;
+}
+
+.header-btn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 15%;
+}
+
+.menu {
+    width: 10%;
+}
+
+/*body*/
+
+
+.about-company {
+    background-image: url(img/banner_original.jpeg);
+    color: rgb(0, 0, 0);    
+    padding: 5% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    text-align: center;
+}
+
+.about-company h1 {
+    font-size: 400%;
+    padding-bottom: 5%;
+}
+
+.about-company button {
+    background-color: transparent;
+    width: 20%;
+    padding: 3% 0%;
+    border-color: black;
+    border-style: solid;
+    font-weight: 1000;
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+}
+
+.about-company button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* options */
+
+
+.options {
+    background-color: rgb(243, 126, 31);
+    display: flex;
+    padding: 5%;
+}
+
+.cuadros {
+    background-color: white;
+    width: 80%;
+    max-width: 50%;
+    padding: 5%;
+    margin: 1%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.cuadros img {
+    width: 100%;
+}
+
+.cuadros h2 {
+    padding-bottom: 5%;
+    font-size: 190%;
+}
+
+.cuadros p {
+    padding-bottom: 20%;
+    font-size: large;
+}
+
+.cuadros button {
+    border: none;
+    background-color: white; 
+    font-size: 150%;
+}
+
+.cuadros a {
+    text-decoration: none;
+    color: gray;
+}
+
+.cuadros a:hover {
+    color: rgb(243, 126, 31);
+}
+
+
+/*field1*/
+
+.field1 {
+    background-color: #f1efef;
+    padding: 8% 15%;
+
+}
+
+.field1-content {
+    background-color: white;
+    display: flex;
+}
+
+.text-field1 {
+    padding: 5%;
+    background-color: white;
+}
+
+.text-field1 h2 {
+    padding-bottom: 5%;
+    font-size: 300%;
+}
+
+.text-field1 ul {
+    padding-bottom: 5%;
+    font-size: 150%;
+    ;
+}
+
+.text-field1 button {
+    background-color: orange;
+    padding: 1% 0%;
+    width: 20%;
+    border: none;
+    font-weight: 1000;
+    color: white;
+}
+
+.text-field1 button:hover {
+    background-color: black;
+    color: red;
+}
+
+.orange-background {
+    position: absolute;
+    top: 225%; /* Center vertically */
+    left: 60%; /* Center horizontally */
+    width: 30%; /* Adjust the width as needed */
+    height: 75%; /* Adjust the height as needed */
+    background-color: rgba(231, 97, 35, 0.603);
+}
+
+.lines-square {
+    padding: 5%;
+    width: 70%;  
+    z-index: -1;
+}
+
+.accessibility_img {
+    position: absolute;
+    z-index: 1;
+    top: 230%; /* Center vertically */
+    left: 55%; /* Center horizontally */
+    width: 30%; /* Adjust the width as needed */
+    height: 50%; /* Adjust the height as needed */
+}
+
+
+/*field2 */
+
+
+.field2 {
+    background-color: rgb(243, 126, 31);
+    height: 300px;
+    padding: 10% 20%;
+}
+
+.text-field2 {
+    background-color: white;
+    padding: 5%;
+    width: 50%;
+}
+
+.text-field2 h2 {
+    font-size: 300%;
+    padding-bottom: 5%;
+}
+
+.text-field2 p {
+    font-size: 150%;
+    padding-bottom: 5%;
+
+}
+
+.text-field2 button {
+    background-color: orange;
+    padding: 1% 0%;
+    width: 20%;
+    border: none;
+    font-weight: 1000;
+    color: white;
+}
+
+.text-field2 button:hover {
+    background-color: black;
+    color: red;
+}
+
+.text-field2 a {
+    text-decoration: none;
+}
+
+.field2 img {
+    position: absolute;
+    z-index: 1;
+    top: 330%; /* Center vertically */
+    left: 55%; /* Center horizontally */
+    width: 30%; /* Adjust the width as needed */
+    height: 50%; /* Adjust the height as needed */
+}
+
+/*field3*/ 
+.field3 {
+    padding: 10%;
+    background-color: #f1efef;
+    display: flex;
+}
+
+.field3 img {
+    border-radius: 50%;
+    width: 35%;
+}
+
+.text-field3 {
+    float: right;
+    background-color: white;
+    border-radius: 10%;
+    padding: 5%; 
+}
+
+.text-field3 h2 {
+    font-size: 300%;
+}
+
+.text-field3 p {
+    font-size: 150%;
+}
+
+.text-field3 button {
+    background-color: orange;
+    padding: 1% 0%;
+    width: 20%;
+    border: none;
+    font-weight: 1000;
+    color: white;
+}
+
+.text-field3 button:hover {
+    background-color: black;
+    color: red;
+}
+
+/* field4*/
+
+.field4 {
+    background-color: rgb(243, 126, 31);
+    padding: 10% 15%;
+    display: flex;
+    color: white;
+}
+
+.text-field4 h2 {
+    font-size: 300%;
+    padding-bottom: 5%;
+}
+
+.text-field4 p {
+    font-size: 150%;
+    padding-bottom: 5%;
+
+}
+.text-field4 button {
+    background-color: orange;
+    padding: 5%;
+    width: 50%;
+    border: none;
+    font-weight: 1000;
+    color: white;
+    font-size: 120%;
+}
+
+.text-field4 button:hover {
+    background-color: black;
+    color: red;
+}
+
+.field4 img{
+    width: 50%;
+}
+/*opinions*/
+
+.opinions {
+    display: flex;
+    background: linear-gradient(to bottom, rgb(243, 126, 31) 50%, white 50%);
+}
+
+.opinions h2 {
+    text-align: center;
+}
+
+.opinions-square section{
+    background-color: white;
+    width: 10%;
+    padding: 5%;
+    margin: 1%;
+    border-radius: 5%;
+    float: left;
+}
+
+/* join us */
+
+.join-us {
+    background-color: #292d33; 
+    padding: 10%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    border-radius: 10px;
+    position: relative;
+    z-index: 1; 
+    overflow: hidden; 
+}
+
+.form {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    background-color: #292d35;
+    text-align: left;
+    width: 70%;
+    height: auto; 
+    margin-left: auto; 
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative; 
+}
+
+.form1 {
+    background-color: #f9f9f9;
+    position: relative;
+    padding: 20px;
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form2 button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: orange;
+    width: 20%;
+    border: none;
+    font-weight: 1000;
+    color: white;
+    
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.imgField6 img {
+    border-radius: 50%;
+    width: 35%;
+}
+
+.menu-btn {
+    display: block;
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
+    user-select: none;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px auto;
+    transition: 0.4s;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: 0.4s;
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+#menu-toggle:checked + .menu-btn .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+#menu-toggle:checked + .menu-btn .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle:checked + .menu-btn .bar:nth-child(3) {
+    transform: rotate(43deg) translate(-5px, -6px);
+}
+
+#menu-toggle:checked ~ .menu {
+    left: 0;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    max-height: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
