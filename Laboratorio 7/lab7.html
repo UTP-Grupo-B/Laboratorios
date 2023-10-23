@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LABORATORIO SIETE</title>
+</head>
+
+<header>
+    <h1>LABORATORIO 7</h1>
+</header>
+<body>
+    <table border="1">
+        <tr>
+            <th>Descripción del ejemplo</th>
+            <th>Ejemplo</th>
+            <th>Botón para activar el ejemplo</th>
+        </tr>
+        <tr>
+            <td>Cambiar el color de párrafo </td>
+            <td><p id="colorParagraph"> Jelouda</p></td>
+            <td><button onclick="cambiarColor()">Cambiar Color</button></td>
+        </tr>
+        <tr>
+            <td>Añadir texto a un párrafo</td>
+            <td><p id="textoParagraph">Presiona el botón</p></td>
+            <td><button onclick="agregarTexto()">añadir texto</button></td>
+        </tr>
+        <tr>
+            <td>Concatenar el valor de dos textos</td>
+            <td><p id="concatenarP"></p></td>
+            <td><button onclick="concatenarTexto()">Concatenar Texto</button></td>
+        </tr>
+        <tr>
+            <td>Eliminar valores de una lista desplegable</td>
+            <td>
+                <select id="listaDesplegable">
+                    <option value="opcionA">OPCION A</option>
+                    <option value="opcionB">OPCION B</option>
+                    <option value="opcionC">OPCION C</option>
+                </select>
+            </td>
+            <td><button onclick="eliminarOpcion()">Eliminar Opción</button></td>
+        </tr>
+        <tr>
+            <td>Un botón que me lleve a un video de youtube</td>
+            <td></td>
+            <td><button onclick="irAYoutube()">Ir a YouTube</button></td>
+        </tr>
+        <tr>
+            <td>Mandar un mensaje al usuario con el nombre colocado en el punto 1.3</td>
+            <td></td>
+            <td><button onclick="mostrarAlerta()">Mostrar Alerta</button></td>
+        </tr>
+        <tr>
+            <td>Manda el nombre a la consola de js del navegador</td>
+            <td></td>
+            <td><button onclick="mostrarNombreEnConsola()">Mostrar en Consola</button></td>
+        </tr>
+        <tr>
+            <td>Un check, e imprimir su estado </td>
+            <td><input type="checkbox" id="checkboxEstado"></td>
+            <td><button onclick="mostrarEstadoCheckbox()">Mostrar Estado</button></td>
+        </tr>
+        <tr>
+            <td>Un radio e imprimir su estado</td>
+            <td>
+                <input type="radio" name="radioEstado" value="opcion A"> C<br>
+                <input type="radio" name="radioEstado" value="opcion B"> T<br>
+            </td>
+            <td><button onclick="mostrarEstadoRadio()">Mostrar Estado</button></td>
+        </tr>
+        <tr>
+            <td>Una validación de un campo, si este es numero enviar un mensaje que solo se permiten teclas. </td>
+            <td><input type="text" id="inputTecla"></td>
+            <td><button onclick="validarTecla()">Validar tecla</button></td>
+        </tr>
+    </table>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shingeki no Kyojin Titans</title>
+</head>
+<body>
+    <section>
+        <h1>Pokemon Viewer</h1>
+        <button id="loadPokemon">Cargar Pokémon</button>
+        <button id="clearPokemon">Limpiar Datos</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody id="pokemonTable"></tbody>
+        </table>
+    </section>
+    <script src="lab7.js"></script>
+</body>
+<footer>
+        <center>
+            <th><img src="https://utp.ac.pa/sites/default/files/documentos/2023/imagen/logo_utp-rgb_2022.png"  width="150px" height="150px" alt=""></th>
+            <th>UTP | ALEXIS PINEL | LABORATORIO 7 | PROF. JUAN ZAMORA | 2023</th>
+            <th><img src="https://fisc.utp.ac.pa/sites/fisc.utp.ac.pa/files/documentos/2020/imagen/logo_en_contactenos.png" width="150px" height="150px" alt=""></th>
+        </center>
+</footer>
+</html>
+
