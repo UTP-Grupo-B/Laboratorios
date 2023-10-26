@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McQueen</title>
+    <link rel="stylesheet" href="McQueen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <form action="">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/56ddf1f6-9a6e-4390-876d-abced83b50ee/dg2ux9g-df9ca4a0-ed82-4111-81b2-44d22b05330a.png/v1/fill/w_1085,h_736/lightning__95_by_alexandrredir_dg2ux9g-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjI1NCIsInBhdGgiOiJcL2ZcLzU2ZGRmMWY2LTlhNmUtNDM5MC04NzZkLWFiY2VkODNiNTBlZVwvZGcydXg5Zy1kZjljYTRhMC1lZDgyLTQxMTEtODFiMi00NGQyMmIwNTMzMGEucG5nIiwid2lkdGgiOiI8PTMzMjIifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.QsAbA64NbIVPlSRl8I-kBPodA6_lXbb41ZBprTMSjJk" class="title">
+        <h2 class="h2">Bienvenidos</h2>
+        <label>
+            <i class="fa-solid fa-id-card"></i>
+            <input placeholder="username" type="text" id="username">
+        </label>
+        <label>
+            <i class="fa-solid fa-lock"></i>
+            <input placeholder="password" type="password" id="password">
+            <span id="password-toggle-icons">
+                <i class="fa-solid fa-eye" id="show-password"></i>
+                <i class="fa-solid fa-eye-slash" id="hide-password" style="display: none;"></i>
+            </span>
+        </label>
+        <a href="" class="link">Forgot your password?</a>
+        <button type="button" onclick="login()">LOGIN</button>
+    </form>
+    <div class="animation-container">
+        <div class="mcqueen-animation">
+        <i class="fas fa-check-circle"></i>
+        <img src="https://i.gifer.com/origin/d7/d796ebd99b62ad4ab11a7bb7f78a4323.gif" alt="Rayo McQueen">
+        <p>Inicio de sesión exitoso</p>
+        </div>
+    </div>
+    <div class="error-animation">
+        <i class="fas fa-exclamation-triangle"></i>
+        <img src="https://64.media.tumblr.com/b454775618312363a53eaf98bd9d5dd9/tumblr_oh4rhciwYg1spc0uxo3_500.gif" alt="">
+        <p>Error en el inicio de sesión</p>
+    </div>
+    <div class="loading-animation">
+        <div class="spinner"></div>
+        <p>Verificando credenciales...</p>
+    </div>
+<script src="main.js"></script>
+<audio id="animation-audio">
+    <source src="audio/audio.mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+</audio>
+<audio id="audio-error">
+    <source src="audio/audio1.mp3" type="audio/mpeg">
+    Tu navegador no soporta la reproducción de audio.
+</audio>
+</body>
+</html>
