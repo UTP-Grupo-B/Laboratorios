@@ -1,0 +1,247 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 10%;
+    background-color: white;
+}
+
+.header-btn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 15%;
+}
+
+.menu {
+    width: 10%;
+}
+
+/*body*/
+
+
+.about-company {
+    background-image: url(img/banner_orginal.jpeg);
+    color: rgb(0, 0, 0);    
+    padding: 5% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-company h1 {
+    font-size: 400%;
+    padding-bottom: 5%;
+}
+
+.about-company button {
+    background-color: transparent;
+    width: 20%;
+    padding: 1% 0%;
+    border-color: black;
+    border-style: solid;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+}
+
+.about-company button:hover {
+    background-color: black;
+    color: red;
+}
+
+/* options */
+
+
+.options {
+    background-color: rgb(243, 126, 31);
+    display: flex;
+    padding: 5%;
+}
+
+.cuadros {
+    background-color: white;
+    width: 80%;
+    max-width: 50%;
+    padding: 5%;
+    margin: 1%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.cuadros img {
+    width: 100%;
+}
+
+.cuadros h2 {
+    padding-bottom: 5%;
+    font-size: 190%;
+}
+
+.cuadros p {
+    padding-bottom: 5%;
+    font-size: large;
+}
+
+.cuadros button {
+    border: none;
+    background-color: white; 
+}
+
+.cuadros a {
+    text-decoration: none;
+}
+
+.cuadros a:hover {
+    color: rgb(243, 126, 31);
+}
+.cuadros .line{
+    width: 5%; /* Make the line span the full width of its container */
+    height: 2px; /* Set the height of the line */
+    background-color: #000; /* Set the line color */
+    position: absolute; /* Position the line relative to its closest positioned ancestor */
+    bottom: -390px; /* Adjust this value to control the distance between the text and the line */
+}
+
+
+/*purpose*/
+
+.field1 {
+    background-color: rgb(241, 239, 239);
+    padding: 8% 15%;
+
+}
+
+.field1-content {
+    background-color: white;
+    display: flex;
+}
+
+.text-field1 {
+    padding: 5%;
+    background-color: white;
+}
+
+.text-field1 h2 {
+    padding-bottom: 5%;
+    font-size: 300%;
+}
+
+.text-field1 ul {
+    padding-bottom: 5%;
+    font-size: 150%;
+    ;
+}
+
+.text-field1 button {
+    background-color: orange;
+    padding: 1% 0%;
+    width: 20%;
+    border: none;
+    font-weight: 1000;
+    color: white;
+}
+
+.text-field1 button:hover {
+    background-color: black;
+    color: red;
+}
+
+.orange-background {
+    position: absolute;
+    top: 170%; /* Center vertically */
+    left: 60%; /* Center horizontally */
+    width: 30%; /* Adjust the width as needed */
+    height: 70%; /* Adjust the height as needed */
+    background-color: rgba(231, 97, 35, 0.603);
+}
+
+.lines-square {
+    padding: 5%;
+    width: 70%;  
+    z-index: -1;
+}
+
+.accessibility_img {
+    position: absolute;
+    z-index: 1;
+    top: 170%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    width: 20%; /* Adjust the width as needed */
+    height: 40%; /* Adjust the height as needed */
+}
+/*field2 */
+
+
+.field2 {
+    background-color: rgb(243, 126, 31);
+}
+
+
+.text-field2 button {
+    background-color: orange;
+    padding: 1% 0%;
+    width: 20%;
+    border: none;
+    font-weight: 1000;
+    color: white;
+}
+
+.text-field2 button:hover {
+    background-color: black;
+    color: red;
+}
+
+.text-field2 a {
+    text-decoration: none;
+}
+
+
+/*field3*/ 
+
+.text-field3 button {
+    background-color: orange;
+    padding: 1% 0%;
+    width: 20%;
+    border: none;
+    font-weight: 1000;
+    color: white;
+}
+
+.text-field3 button:hover {
+    background-color: black;
+    color: red;
+}
+
+/* field4*/
+.text-field4 button {
+    background-color: orange;
+    padding: 1% 0%;
+    width: 20%;
+    border: none;
+    font-weight: 1000;
+    color: white;
+}
+
+.text-field4 button:hover {
+    background-color: black;
+    color: red;
+}
+
+/*opinions*/
+
+.opinions {
+
+}
+
+/* join us */
+
+.join-us {
+
+}
