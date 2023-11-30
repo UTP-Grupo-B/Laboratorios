@@ -8,17 +8,14 @@ public class Conexion {
     public Connection openDB() {
         try {
             Class.forName("org.mariadb.jdbc.Driver");
-            String user = "";
-            String contraseña = "";
-            return DriverManager.getConnection("jdbc:mariadb://", user, contraseña);
-        } catch (SQLException e) {
+            String jdbcUrl = "jdbc:mariadb://localhost:3306/chichemes";
+            String user = "root";
+            String password = "gremio";
+            return DriverManager.getConnection(jdbcUrl, user, password);
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
-            System.out.println("Error en la conexión a la base de datos");
-        } catch (ClassNotFoundException cnfex) {
-            cnfex.printStackTrace();
-            System.out.println("Error de clase no encontrada");
+            System.out.println("Error in database connection");
         }
-        return null; 
-            
-    }   
+        return null;
+    }
 }

@@ -1,11 +1,12 @@
+console.log('JavaScript file loaded!');
 document.addEventListener('DOMContentLoaded', function () {
     const registroForm = document.getElementById('registroForm');
 
     registroForm.addEventListener('submit', function (event) {
-        event.preventDefault(); 
+        event.preventDefault();
 
-        const username = document.querySelector('input[name="username"]').value;
-        const email = document.querySelector('input[name="email"]').value;
+        const username = document.getElementById('username').value;
+        const email = document.getElementById('email').value;
         const telefono = document.getElementById('telefono').value;
 
         const usuario = {
@@ -14,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
             telefono: telefono,
         };
 
-        fetch('http://localhost:8080/Cine/registro', {
+        fetch('http://localhost:8080/parcial3', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -24,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => response.text())
             .then(data => {
                 console.log(data);
-                if (data.includes("Registro exitoso")) {
+                if (data.includes("Registro Exitoso")) {
                     alert('¡Registro exitoso!');
                 } else {
                     alert('Error en el registro. Por favor, inténtelo de nuevo.');

@@ -16,7 +16,7 @@ public class parcial3DB {
     public String register(Usuarios usuario) {
         String feedback = "";
 
-        String query = "CALL InsertarUsuario(?, ?, ?)";
+        String query = "INSERT INTO Usuario (Username, Email, Telefono) VALUES (?, ?, ?)";
 
         try (PreparedStatement pstmt = cnn.prepareStatement(query)) {
             pstmt.setString(1, usuario.getUsername());
@@ -24,7 +24,7 @@ public class parcial3DB {
             pstmt.setString(3, usuario.getTelefono());
 
             pstmt.executeUpdate();
-
+            cnn.commit();
             return "Registro Exitoso";
         } catch (SQLException sqle) {
             sqle.printStackTrace();
